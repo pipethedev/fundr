@@ -1,0 +1,41 @@
+{
+  "name": "fundr",
+  "version": "1.0.0",
+  "description": "A web application that allows you to fund and support people by donations",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fn-studyo/fundr.git"
+  },
+  "keywords": [
+    "Funding",
+    "goFundMe",
+    "donations"
+  ],
+  "author": "Muritala David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fn-studyo/fundr/issues"
+  },
+  "homepage": "https://github.com/Fn-studyo/fundr#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "paystack-api": "^2.0.5"
+  }
+}
